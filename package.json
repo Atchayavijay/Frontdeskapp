@@ -1,0 +1,20 @@
+{
+  "name": "frontenddesk",
+  "version": "1.0.0",
+  "description": "\"frontdeskapp\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atchayavijay/Frontdeskapp.git"
+  },
+  "author": "Atchaya Vijayakumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atchayavijay/Frontdeskapp/issues"
+  },
+  "homepage": "https://github.com/Atchayavijay/Frontdeskapp#readme"
+}

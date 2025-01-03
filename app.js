@@ -1,9 +1,10 @@
 const express = require('express');
+const authRouter = require('./routes/authRoutes');
 
-const app =express();
+const app = express();
 
-app.get('/', (request,response) => {
-    response.json({message:"Hello world"});
-});
+app.use(express.json());
 
-module.exports=app;
+app.use('/auth', authRouter);
+
+module.exports = app;
